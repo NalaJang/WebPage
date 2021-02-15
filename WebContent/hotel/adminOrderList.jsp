@@ -6,11 +6,6 @@
 <head>
 <meta charset="UTF-8">
 <title>관리자 페이지(주문내역)</title>
-<style>
-	body {
-		text-align : center;
-	}
-</style>
 
 <script>
 // 	function deliver() {

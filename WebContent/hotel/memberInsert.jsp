@@ -150,7 +150,7 @@
 	
 	<div class = "row logo">
 	
-		<a href = "main.do">Hotel Image</a>
+		<a href = "main.do"><img src = "http://localhost:8080/project/hotel/img/펭귄.jpg"></a>
 		
 	</div>
 	
