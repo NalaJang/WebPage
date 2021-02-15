@@ -87,8 +87,8 @@ SHOP 에서도 로그인 후 구매와 장바구니 이용이 가능합니다.
 <img src="https://user-images.githubusercontent.com/73895803/107914640-38046b00-6fa6-11eb-920a-e24dd8a4f456.JPG"/>
 
   * '바로 구매' 와 '장바구니'
-<img src="https://user-images.githubusercontent.com/73895803/107906220-ebb02f80-6f93-11eb-9b06-df6f05f1983d.JPG" />
-<img src="https://user-images.githubusercontent.com/73895803/107906261-008cc300-6f94-11eb-9713-cdd8f81f97ed.JPG" />
+<img src="https://user-images.githubusercontent.com/73895803/107918107-69803500-6fac-11eb-8c4e-15840f8c0fe7.JPG" />
+<img src="https://user-images.githubusercontent.com/73895803/107918051-52d9de00-6fac-11eb-82c5-f4839354a3b4.JPG" />
 
 ### 후원
   * 후원 하기</br>
@@ -104,8 +104,8 @@ SHOP 에서도 로그인 후 구매와 장바구니 이용이 가능합니다.
   * 활동 후기 및 여행 후기
 
 ### 관리자 페이지
-<img src="https://user-images.githubusercontent.com/73895803/107915356-ad247000-6fa7-11eb-9cb7-b7f09be58a49.JPG" width = "570"/>
+<img src="https://user-images.githubusercontent.com/73895803/107915356-ad247000-6fa7-11eb-9cb7-b7f09be58a49.JPG" width = "770"/>
 <img src="https://user-images.githubusercontent.com/73895803/107916668-0097bd80-6faa-11eb-9d9d-4c8331b5314a.JPG" width = "870"/>
 <img src="https://user-images.githubusercontent.com/73895803/107916690-0a212580-6faa-11eb-8aa4-573703a77bc1.JPG" width = "870"/>
-
+<img src="https://user-images.githubusercontent.com/73895803/107918229-a2200e80-6fac-11eb-99cb-ec7c629d2e59.JPG" width = "870"/>
 
