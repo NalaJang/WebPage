@@ -1,0 +1,101 @@
+package hotelDto;
+
+import java.sql.Timestamp;
+
+public class CampaignReplyVo {
+	private int qseq;
+	private int replynum;
+	private String content;
+	private String email;
+	private String name;
+	private Timestamp indate;
+	private String admin_delete;
+	
+	public CampaignReplyVo() {
+		
+	}
+	
+	public CampaignReplyVo(int qseq, int replynum, String content, String email, String name, Timestamp indate, String admin_delete) {
+		this.qseq = qseq;
+		this.replynum = replynum;
+		this.content = content;
+		this.email = email;
+		this.name = name;
+		this.indate = indate;
+		this.admin_delete = admin_delete;
+	}
+
+
+	public int getQseq() {
+		return qseq;
+	}
+
+
+	public CampaignReplyVo setQseq(int qseq) {
+		this.qseq = qseq;
+		return this;
+	}
+
+	public int getReplynum() {
+		return replynum;
+	}
+
+	public CampaignReplyVo setReplynum(int replynum) {
+		this.replynum = replynum;
+		return this;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+
+	public CampaignReplyVo setContent(String content) {
+		this.content = content;
+		return this;
+	}
+
+
+	public String getEmail() {
+		return email;
+	}
+
+
+	public CampaignReplyVo setEmail(String email) {
+		this.email = email;
+		return this;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public CampaignReplyVo setName(String name) {
+		this.name = name;
+		return this;
+	}
+
+
+	public Timestamp getIndate() {
+		return indate;
+	}
+
+
+	public CampaignReplyVo setIndate(Timestamp indate) {
+		this.indate = indate;
+		return this;
+	}
+
+	public String getAdmin_delete() {
+		return admin_delete;
+	}
+
+	public CampaignReplyVo setAdmin_delete(String admin_delete) {
+		this.admin_delete = admin_delete;
+		return this;
+	}
+	
+	
+}

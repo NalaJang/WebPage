@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	.question_7, .question_9 {
+		background-color : pink;
+	}
+	
+	.question_7_2, .question_7_3, .question_7_4 {
+		background-color : yellow;
+	}
+</style>
+
+<script>
+
+/* ========= 문제5========= */
+function submit() {
+    var dan = document.all["num"].value;
+   
+    if(dan == "") {
+        alert("숫자를 입력하세요")
+        return false;
+    } else {
+	    	document.write("<b>" + dan + "단" + "</b>" + "<p>");
+    	
+	    for(var j=1; j<10; j++) {
+	        document.write(dan + "*" + j + "=" + (dan*j) + "<br>");
+	        
+	    }       
+    }
+}
+
+/* ========= 문제6========= */
+function goDisable(){
+  document.getElementById('target').disabled = true;
+}
+
+
+/* ========= 문제7========= */
+function color() {
+		var target = document.getElementById("question_7_2");
+		
+		target.style.backgroundColor = "red";
+	}
+	
+	
+/* ========= 문제8========= */
+function goBold(){
+  document.getElementById('bold').style.fontWeight = "bold";
+}
+
+
+
+/* ========= 문제9========= */
+function color2() {
+		var target = document.getElementById("question_9_1");
+		
+		target.style.color = "red";
+	}
+	
+	
+/* ========= 문제10========= */
+function unCheck() {
+  document.getElementById("c1").checked = false;
+  document.getElementById("c2").checked = false;
+  document.getElementById("c3").checked = false;
+  document.getElementById("c4").checked = false;
+}
+
+</script>
+</head>
+<body>
+<fieldset>
+	<legend>1. 원하는 사이트를 선택하세요</legend>
+	
+		<input type = "radio" name = "site" value = "네이버" onclick = "hyper_radio('http://naver.com')">네이버<br>
+		<input type = "radio" name = "site" value = "다음" onclick = "hyper_radio('http://daum.net')">다음       <br>
+		<input type = "radio" name = "site" value = "네이트" onclick = "hyper_radio('http://nate.com')">네이트  <br>
+
+</fieldset>
+
+<script>
+	function hyper_radio(w) {
+	    url=w;
+	    window.open(url,'_blank','');
+	}
+</script>
+
+<p>
+
+<fieldset>
+	<legend>2. 1~20까지 숫자중 랜덤으로 생성하시오?</legend>
+	
+		출력: <input type="text" id="randomNum">
+			 <button onclick="createRandom()">생성</button>
+</fieldset>
+
+<script>
+	function createRandom() {
+	    var num = parseInt(Math.random() * 20 + 1);
+	    document.getElementById('randomNum').value = num;
+	}
+</script>
+
+<p>
+
+<fieldset>
+	<legend>3. 이동할 페이지를 선택하세요</legend>
+	
+		<select onchange = "hyper_select(this)" size = "1">
+			<option value = "">바로가기
+			<option value = "http://naver.com">네이버
+			<option value = "http://daum.net">다음
+			<option value = "http://nate.com">네이트
+		</select>
+	
+</fieldset>
+
+<script>
+	function hyper_select(url) {
+		  if (url.selectedIndex != 0) {
+		        location.href=url.options[url.selectedIndex].value;
+		    }
+	}
+</script>
+
+<p>
+
+<fieldset>
+	<legend>4.보기의 숫자를 정렬해주세요 (낮은순)</legend>
+		*숫자: 1, 15, 8, 69, 45, 23, 37, 19 <br>
+		*정렬: <input type="text" id="numArr" style="border: none;"><br>
+			  <input type="button" value="숫자정렬" onclick="createArray()">
+</fieldset>
+
+<script>
+	function createArray(){
+	  var arr = [1, 15, 8, 69, 45, 23, 37, 19];
+	  
+	  arr.sort(function(a, b) {
+	     return a - b;
+	  });
+	  
+	  document.getElementById('numArr').value = arr;
+
+	}
+</script>
+
+<p>
+
+<fieldset>
+	<legend>5.원하는 구구단을 입력하고 화면에 출력합니다.</legend>
+		
+		<input type = "text" name = "num"><input type = "button" value = "출력" onclick = "submit()">
+
+</fieldset>
+
+<p>
+
+<fieldset>
+	<legend>6.버튼을 disable 시켜주세요 </legend>
+	
+		<input type="button" value="target05"  onclick="goDisable()"><p>
+		
+		<div style="background-color: pink;">
+		   <div>.target05</div>
+		   <input id="target" type="button" value="난 버튼이야">
+		</div>
+		
+</fieldset>
+
+
+<p>
+
+<fieldset>
+	<legend>7.아래의 target04 중에서 두번째의 .target04의 배경색을 변경하세요.</legend>
+		<input type = "button" value = "target04" onclick = "color()"><p>
+		
+		<div style="background-color: pink;">
+			<div class = "question_7_1">.target04</div><p>
+			<div id = "question_7_2" class = "question_7_2">.target04</div><p>
+			<div class = "question_7_3">.target04</div><p>
+			<div class = "question_7_4">.target04</div>
+		</div>
+</fieldset>
+
+<p>
+
+<fieldset>
+	<legend>8.bold 텍스트가 포함되어 있는 엘리먼트의 텍스트에 bold 효과를 적용하세요</legend>
+		<input type="button" value="#target18" onclick="goBold()"><p>
+		
+		<div style="background-color: pink;">
+		   #target18 <br>
+		   <p id="bold">bold</p>
+		   <p>strike</p>
+		   <p>blink</p>
+		</div>
+</fieldset>
+
+<p>
+
+<fieldset>
+	<legend>9. textbox에 내용을 읽기만 가능하게 만들고 폰트색깔은 red를 적용하세요.</legend>
+	
+	<input type = "button" value = "#target20" onclick = "color2()"><p>
+	
+	<div style="background-color: pink;"><p>
+		#target20<p>
+		<input id = "question_9_1" value = "나를 읽기만 가능하게 만들어줘!" type = "text" style = "width : 300px; "readonly>
+	
+	</div>	
+</fieldset>
+
+<p>
+
+<fieldset>
+	<legend>10.체크된 체크박스를 모두 풀어주세요</legend>
+		<input type="button" value="target06" onclick="unCheck()"><p>
+		
+		<div style="background-color: pink;">
+		   .target06<br>
+		   
+		   <input type="checkbox" id="c1" checked> uncheck! <br>
+		   <input type="checkbox" id="c2" checked> uncheck! <br>
+		   <input type="checkbox" id="c3" checked> uncheck! <br>
+		   <input type="checkbox" id="c4" checked> uncheck!
+		</div>
+</fieldset>
+</body>
+</html>
