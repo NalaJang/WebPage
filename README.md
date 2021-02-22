@@ -68,12 +68,12 @@
 <img src="https://user-images.githubusercontent.com/73895803/107896994-4d17d480-6f7b-11eb-9a3c-09397a6a22fb.PNG" width = "450" height = "420"/>
 
 ### 회원가입
-<img src="https://user-images.githubusercontent.com/73895803/107897058-818b9080-6f7b-11eb-9972-33be4e6d0b5d.PNG" width = "550"/>
+<img src="https://user-images.githubusercontent.com/73895803/108646315-bad27c00-74f8-11eb-8011-42bd4f3ae46a.JPG" width = "550"/>
 
 ### 객실
   * 로그인 전</br>
   객실 예약은 로그인 후 이용 가능합니다.
-<img src="https://user-images.githubusercontent.com/73895803/107897524-9c123980-6f7c-11eb-9934-954309fd2835.JPG"/>
+<img src="https://user-images.githubusercontent.com/73895803/108645563-9e354480-74f6-11eb-82d8-5790ae854b38.png"/>
 
   * 로그인 후
 <img src="https://user-images.githubusercontent.com/73895803/107914156-35eddc80-6fa5-11eb-81c3-a3a9c5dec094.JPG" width = "300"/>
@@ -99,13 +99,17 @@ SHOP 에서도 로그인 후 구매와 장바구니 이용이 가능합니다.
 
 ### 펭귄 보호 활동
   * 펭귄의 이야기 및 펭귄 보호 활동
+ <img src="https://user-images.githubusercontent.com/73895803/108645578-a8574300-74f6-11eb-8075-9d809b40d05e.png" />
 
 ### 게시판
   * 활동 후기 및 여행 후기
+ <img src="https://user-images.githubusercontent.com/73895803/108645581-a8efd980-74f6-11eb-9c5a-d79a1adfb93d.png" />
 
 ### 관리자 페이지
 <img src="https://user-images.githubusercontent.com/73895803/107915356-ad247000-6fa7-11eb-9cb7-b7f09be58a49.JPG" width = "770"/>
+<img src="https://user-images.githubusercontent.com/73895803/108646403-0c7b0680-74f9-11eb-8ea8-e4d547352cf4.JPG" width = "870"/>
 <img src="https://user-images.githubusercontent.com/73895803/107916668-0097bd80-6faa-11eb-9d9d-4c8331b5314a.JPG" width = "870"/>
 <img src="https://user-images.githubusercontent.com/73895803/107916690-0a212580-6faa-11eb-8aa4-573703a77bc1.JPG" width = "870"/>
 <img src="https://user-images.githubusercontent.com/73895803/107918229-a2200e80-6fac-11eb-99cb-ec7c629d2e59.JPG" width = "870"/>
+
 
