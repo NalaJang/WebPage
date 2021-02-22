@@ -95,7 +95,8 @@ SHOP 에서도 로그인 후 구매와 장바구니 이용이 가능합니다.
 후원금액을 직접 입력 또는 선택할 수 있습니다.
 <img src="https://user-images.githubusercontent.com/73895803/107906462-86a90980-6f94-11eb-844b-dc594c27c071.png" />
 
-  * 후원금 사용 내역
+  * 나의 후원 내역
+<img src="https://user-images.githubusercontent.com/73895803/108649909-a34bc100-7501-11eb-8548-2023ea6458ab.JPG" width = "550"/>
 
 ### 펭귄 보호 활동
   * 펭귄의 이야기 및 펭귄 보호 활동
