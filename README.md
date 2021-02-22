@@ -107,9 +107,15 @@ SHOP 에서도 로그인 후 구매와 장바구니 이용이 가능합니다.
 
 ### 관리자 페이지
 <img src="https://user-images.githubusercontent.com/73895803/107915356-ad247000-6fa7-11eb-9cb7-b7f09be58a49.JPG" width = "770"/>
-<img src="https://user-images.githubusercontent.com/73895803/108646403-0c7b0680-74f9-11eb-8ea8-e4d547352cf4.JPG" width = "870"/>
-<img src="https://user-images.githubusercontent.com/73895803/107916668-0097bd80-6faa-11eb-9d9d-4c8331b5314a.JPG" width = "870"/>
-<img src="https://user-images.githubusercontent.com/73895803/107916690-0a212580-6faa-11eb-8aa4-573703a77bc1.JPG" width = "870"/>
-<img src="https://user-images.githubusercontent.com/73895803/107918229-a2200e80-6fac-11eb-99cb-ec7c629d2e59.JPG" width = "870"/>
 
+ * 회원 관리
+ <img src="https://user-images.githubusercontent.com/73895803/108646403-0c7b0680-74f9-11eb-8ea8-e4d547352cf4.JPG" width = "870"/>
 
+ * 객실 관리
+ <img src="https://user-images.githubusercontent.com/73895803/107916668-0097bd80-6faa-11eb-9d9d-4c8331b5314a.JPG" width = "870"/>
+
+ * 상품 관리
+ <img src="https://user-images.githubusercontent.com/73895803/107916690-0a212580-6faa-11eb-8aa4-573703a77bc1.JPG" width = "870"/>
+
+ * 주문 내역 관리
+ <img src="https://user-images.githubusercontent.com/73895803/107918229-a2200e80-6fac-11eb-99cb-ec7c629d2e59.JPG" width = "870"/>
