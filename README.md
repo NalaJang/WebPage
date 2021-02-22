@@ -73,7 +73,7 @@
 ### 객실
   * 로그인 전</br>
   객실 예약은 로그인 후 이용 가능합니다.
-<img src="https://user-images.githubusercontent.com/73895803/108645563-9e354480-74f6-11eb-82d8-5790ae854b38.png"/>
+<img src="https://user-images.githubusercontent.com/73895803/108646607-d38f6180-74f9-11eb-9d3e-dee1e8982ce7.JPG"/>
 
   * 로그인 후
 <img src="https://user-images.githubusercontent.com/73895803/107914156-35eddc80-6fa5-11eb-81c3-a3a9c5dec094.JPG" width = "300"/>
